@@ -5,7 +5,7 @@ var email = document.getElementById("email").value;
 var password = document.getElementById("password").value;
 if ( email == "sample" && password == "sample@123"){
 alert ("Login successfully");
-window.location = "success.html"; // Redirecting to other page.
+window.location = "try.html"; // Redirecting to other page.
 return false;
 }
 else{
